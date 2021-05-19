@@ -1,0 +1,52 @@
+@media screen and (max-width:850px) {
+    /* ------------portfolio---------- */
+    .portfolio{
+        width: 85rem;
+    }
+    /* ---------------introduction------- */
+    .intro1{
+        width: 76rem;
+    }
+    .intro2{
+        width: 75rem;
+        height: 70rem;
+        width: 65rem;
+        margin-left: 7rem;
+    }
+    /* --------title------ */
+    .title{
+        width: 85rem;
+    }
+    /* ---------------education---------- */
+    .edu{
+        margin-left: 30rem;
+        row-gap: 2rem;
+}
+    .edu1{
+       font-size: 1.5rem;
+}
+    /* -----------hobby---------------- */
+    .hobby{
+        margin-left: 30rem ;
+    }
+    /* ---------soft skill------------ */
+    .soft{
+        margin-left: 30rem;
+    }
+    /* -----------gallery--------- */
+    .gallery{
+        margin-left: 30rem;
+    }
+    /* ----------socialtags----------- */
+    .socialtag{
+        width: 85rem;
+        height: 10rem;
+    }
+    /* ----------devloper---------------- */
+    .devloper{
+        width: 85rem;
+    }
+    hr{
+        width: 55rem;
+    }
+}
