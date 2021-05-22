@@ -1,9 +1,6 @@
-@media screen and (max-width:850px){
+@media only screen and (max-width:850px){
     /* --------------navigation bar--------- */
-     #navbar{
-         width: 18.3rem;
-         height: 3rem;
-     }
+
      .navcon li:first-child{
          border-bottom-left-radius: 0rem;    
      }
@@ -12,10 +9,10 @@
      }
      .navcon li{
         margin-bottom: 0.5rem;
+        margin-right: 1.5rem;
      }
      .navcon li a{
          font-size: 1rem;
-         padding: 0.5rem;
      }
      .navcon li a:nth-child(1){
          padding: 0.5rem;
@@ -27,16 +24,20 @@
     }
     /* ---------------introduction------- */
     .intro1{
-        width: 14rem;
+        padding: 3rem 0.5rem;
     font-size: 2rem;
     line-height: 2.5rem;
-    height: 51rem;
     margin-top: 0rem;
+    margin-right: 22rem;
+    margin-left: -2rem;
     }
     .intro2{
-        margin-top: -4rem;
-        width: 14rem;
-    height: 23rem;
+        margin-top: -8rem;
+        margin-right: 22rem;
+        margin-left: -2rem;
+    }
+    .intro2 img{
+        width: 100%;
     }
     /* ---------------education---------- */
     .edu{
@@ -45,7 +46,7 @@
         }
     .edu1{
         font-size: 1.1rem;
-        width: 15.8rem;
+        margin-right: 7rem;
          }
     .fa{
         font-size: 3rem;
@@ -55,8 +56,7 @@
         margin-left: 0rem ;
     }
     .hobby1{
-        font-size: 1.1rem;
-        width: 16rem;
+        font-size: 1.5rem;
     }
     .bi{
         font-size: 2rem;
@@ -67,8 +67,7 @@
         margin-left: 0rem;
     }
     .soft1{
-        font-size: 1.1rem;
-        width: 16rem;
+        font-size: 1.5rem;
     }
     #bi1{
         font-size: 2rem;
@@ -97,7 +96,7 @@
         font-size: 1.5rem;
     }
     hr{
-        width: 14rem;
+        width: 50%;
         margin-left: 3rem;
     }
 }

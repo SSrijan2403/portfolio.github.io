@@ -19,13 +19,13 @@ html{
     scroll-behavior: smooth;
 }
 /* --------------hr------------ */
-hr{
+ hr{
     display: inline-block;
-    width: 70rem;
+    width: 50%;
     margin-left: 15rem;
     border: 0.5px solid red;
     margin-bottom: 2rem;
-}
+} 
 /*----------------- navigation bar---------------  */
 #navbar{
     position: fixed;
@@ -146,6 +146,7 @@ hr{
     padding: 2rem;
     margin: 0px 50px;
     margin-bottom: 5rem;
+    row-gap: 50px;
 }
 .edu1{
     display: flex;
@@ -154,7 +155,7 @@ hr{
     flex-wrap: wrap;
     align-content: center;
     height: 10rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
     line-height: 2.5rem;
     font-family: 'Raleway', sans-serif;
@@ -175,12 +176,14 @@ hr{
 /* --------------Hobby-------------- */
 .hobby{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     column-gap: 100px;
     row-gap: 50px;
-    margin: 0px 50px;
+    margin: auto;
+    max-width: 85rem;
     padding: 2rem;
     margin-bottom: 5rem;
+    justify-content: center;
 }
 .hobby1{
     display: flex;
@@ -222,12 +225,14 @@ hr{
 /* --------------soft skills--------------- */
 .soft{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     column-gap: 100px;
     row-gap: 50px;
-    margin: 0px 50px;
+    margin: auto;
+    max-width: 85rem;
     padding: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: rem;
+    justify-content: center;
 }
 .soft1{
     display: flex;
@@ -269,7 +274,7 @@ hr{
 /* --------------------gallery----------------- */
 .gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     column-gap: 120px;
     row-gap: 100px;
     margin: 0px 50px;
